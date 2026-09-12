@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShipDecKK | Subscribe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ShipDecKK</h1>
+        <div class="hamburger">☰</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="login"><a href="subscribe.html" class="active">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="form-container">
+        <p class="form-title">Subscribe to ShipDecKK</p>
+        <form id="subscribeForm" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <div class="error" id="nameError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <div class="error" id="passwordError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age">
+                <div class="error" id="ageError"></div>
+            </div>
+
+            <div class="form-group gender-group">
+                <label>Gender</label>
+                <div class="gender-options">
+                  <label><input type="radio" name="gender" value="male"> Male</label>
+                  <label><input type="radio" name="gender" value="female"> Female</label>
+                  <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+                <div class="error" id="genderError"></div>
+              </div>
+
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="agree">
+                <label for="agree">I agree to the terms</label>
+            </div>
+
+            <div class="error" id="agreeError"></div>
+            <br>
+            <button type="submit">Subscribe</button>
+        </form>
+      </div>
+        
+    <footer>
+        <h1>&copy; 2025 ShipDecKK. All rights reserved.</h1>
+        <nav>
+            <ul class="foot">
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
