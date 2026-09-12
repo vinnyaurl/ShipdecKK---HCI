@@ -69,32 +69,3 @@ Menjelaskan sejarah perusahaan, misi, nilai perusahaan, serta pencapaian penting
 ### 5. Halaman Subscribe
 Menyediakan form subscribe dengan validasi data seperti nama, email, password, usia, gender, dan persetujuan syarat.
 
-## Cara Menjalankan Project
-
-Karena project ini merupakan website statis, Anda dapat menjalankannya dengan salah satu cara berikut:
-
-### Opsi 1: Buka langsung di browser
-- Buka file `index.html` langsung di browser.
-
-### Opsi 2: Jalankan server lokal
-Pada folder project, jalankan perintah berikut:
-
-```bash
-python -m http.server 8000
-```
-
-Lalu buka browser ke:
-
-```text
-http://localhost:8000
-```
-
-## Catatan
-
-- Semua halaman menggunakan file CSS yang sama, yaitu `css/style.css`.
-- JavaScript untuk aktifitas navigasi dan validasi form terletak di `js/script.js`.
-- Beberapa gambar yang digunakan sudah tersedia di folder `img`, sehingga project siap dijalankan tanpa instalasi tambahan.
-
-## Author
-
-Project ini dibuat untuk kebutuhan tugas HCI / Human-Computer Interaction dengan tema website kapal ShipDecKK.
